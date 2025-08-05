@@ -30,6 +30,8 @@
 .section4 .barça .visca h1{
     font-size: 40px;
     text-transform: capitalize;
+    text-align: center;
+    padding: 0px 20px;
 }
 .section4 .cards .card .entete img{
   height: 50px;
@@ -40,7 +42,7 @@
   display: grid;
   grid-template-columns: repeat(3 , 1fr);
   gap: 30px;
-  padding: 30px 170px;
+  padding: 30px 90px;
   margin-bottom: 50px;
 }
 
