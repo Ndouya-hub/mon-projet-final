@@ -9,10 +9,11 @@
     padding: 20px;
     background-color: rgb(211,232,255);
     border-radius: 30px;
-    margin: 80px;
+    margin: 50px;
     padding-bottom: 0px;
-    padding-right: 100px;
+    padding-right: 50px;
     padding-top: 50px;
+    align-items: flex-end;
 }
 
 .section7 .lions .col20 .col19{
