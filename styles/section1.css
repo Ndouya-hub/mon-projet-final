@@ -1,0 +1,87 @@
+.section1 {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right,  rgba(241, 244, 255, 0.87),rgb(241,244,255), rgb(220,235,255), rgb(215, 220, 236));
+    overflow: hidden;
+}
+
+.section1 .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 105px;
+    padding-top: 5px;
+}
+
+.section1 .hero .profil {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section1 .hero .images {
+    max-width: 80%;
+    display: flex;
+    position: relative;
+    max-width: fit-content
+}
+
+.section1 .hero .images img {
+    width: 800px;
+}
+
+.section1 .hero h1{
+    font-family: "Urbanist", sans-serif;
+    font-size: 50px;
+    max-width: 500px;
+}
+
+.section1 .hero .profil a{
+    padding: 7px 20px;
+    background-color: black;
+    color: white;
+    max-width: 210px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.section1 .hero .profil .crypto{
+    display: flex;
+    background-color: white;
+    color: black;
+    align-items: center;
+    max-width: fit-content;
+    padding: 5px;  
+    font-size: 15px;
+    border-radius: 30px;
+    
+}
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+    .section1  {
+        min-height: 100vh;
+    }
+
+    .section1 .hero {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 50px;
+    }
+
+    .section1 .hero h1 {
+        font-size: 30px;
+    }
+
+    .section1 .hero .images img {
+        width: 300px;
+    }
+
+}

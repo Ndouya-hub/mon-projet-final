@@ -1,0 +1,86 @@
+.section7 {
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.section7 .lions{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(211,232,255);
+    border-radius: 30px;
+    margin: 80px;
+    padding-bottom: 0px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+.section7 .lions .col20 .col19{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    gap: 5px;
+}
+.section7 .lions .col20 h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    line-height: 45px;
+}
+
+.section7 .lions .col20 .p p{
+    font-size: 22px;
+    opacity: 70%;
+}
+
+.section7 .lions .col20{
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.section7 .lions .col20 .appstore img{
+    height: 30px;
+    width: 30px;
+}
+
+.section7 .lions .logo img{
+    height: 500px;
+}
+
+.section7 .lions .col20 .app{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 70px;
+}
+
+.section7 .lions .col20 .app .appstore{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+@media (max-width: 900px){
+    .section7 .lions .col20 .col19{
+        display: flex;
+        justify-content: center;
+    }
+}

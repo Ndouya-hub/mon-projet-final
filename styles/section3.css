@@ -1,0 +1,84 @@
+.section3{
+    min-height: 100vh;
+    width: 100%;
+    padding: 50px 50px;
+    background-color: white
+}
+
+.section3 .titre{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section3 .titre .avantages{
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50px;
+gap: 5px;
+flex-direction: column;
+}
+
+.section3 .titre .avantages .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 5px;
+    background-color: rgb(236,243,254);
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.section3 .titre .avantages h1{
+   font-size: 40px; 
+   text-transform: capitalize; 
+}
+.section3 .titre .avantages p{
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.section3 .titre .real{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 20px;
+}
+
+.section3 .titre .real .block{
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    border-radius: 10px;
+
+}
+
+.section3 .titre .real img{
+    margin-bottom: 10px;
+}
+.section3 .titre .real h2{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+    .section3 .titre .avantages h1{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+.section3 .titre .real{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10 20px;
+
+}

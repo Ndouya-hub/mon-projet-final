@@ -1,0 +1,154 @@
+.section2{
+    min-height: 100vh;
+    width: 100%;
+    padding: 50px 20px;
+    background-color: white
+}
+
+.section2 .entete,.about{
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50px;
+gap: 5px;
+}
+
+.section2 .entete .about{
+    background-color: rgb(236,243,254);
+    padding: 10px 20PX;
+}
+
+
+.section2 .entete {
+    flex-direction: column;
+    gap: 10px;
+    color: rgb(3,4,9);
+}
+
+.section2 .entete p {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.section2 .entete h1{
+    font-size: 40px;
+    padding: 80px;
+
+}
+
+.section2 .card-part h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    font-size: 40px;
+    padding-bottom: 0%;
+}
+
+.section2 .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section2 .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 300px;
+    background-color: rgb(249,249,249);
+    height: 350px;
+    border-radius: 30px;
+}
+
+.section2 .card img {
+    max-width: 200px;
+}
+
+.section2 .card .images {
+    position: relative;
+    max-width: fit-content;
+}
+
+.section2 .card .images img {
+    max-width: 50px;
+    position: absolute;
+}
+
+.section2 .cardest {
+    max-width: 600px;
+    flex-direction: row;
+    height: 300px;
+    justify-content: space-between;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.section2 .meme {
+    height: 270px;
+
+}
+
+.section2 .card-part .cards .card p{
+    padding: 20px;
+    padding-left: 0px;
+}
+
+.section2 .card-part .cards .cardest-text a{
+     background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.section2 .card-part .cards .card-color {
+    background-color: rgb(217, 231, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 .card-part .cards .card-media P{
+margin-bottom: 50px;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+    .section2 .entete p {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    .section2 .card-part h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        padding-bottom: 0%;
+        text-align: center;
+    }
+    .section2 .card-part .cards .meme .text {
+        align-items: center;
+    }
+
+}
