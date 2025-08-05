@@ -11,7 +11,7 @@
     align-items: center;
     gap: 20px;
     padding: 20px 105px;
-    padding-top: 5px;
+    padding-top: 50px;
 }
 
 .section1 .hero .profil {
@@ -23,12 +23,13 @@
 .section1 .hero .images {
     max-width: 60%;
     display: flex;
-    position: relative;
-    max-width: fit-content
+    align-items: center;
+    justify-content: center;
 }
 
 .section1 .hero .images img {
-    width: 700px;
+    width: 550px;
+    margin-top: 100px;
 }
 
 .section1 .hero h1{
@@ -74,6 +75,7 @@
         flex-direction: column;
         gap: 30px;
         margin-top: 50px;
+        justify-content: center;
     }
 
     .section1 .hero h1 {
@@ -81,7 +83,7 @@
     }
 
     .section1 .hero .images img {
-        width: 300px;
+        width: 400px;
     }
 
 }

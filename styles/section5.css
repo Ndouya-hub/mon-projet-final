@@ -49,7 +49,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .section5 .col8 .col6{
@@ -158,5 +158,9 @@
     font-size: 40px;
     text-align: center;
     margin-bottom: 20px;
+
+}
+.section5 .col8{
+    flex-wrap: wrap;
 }
 }

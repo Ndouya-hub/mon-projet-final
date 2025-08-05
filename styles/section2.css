@@ -46,12 +46,17 @@ gap: 5px;
 }
 
 .section2 .cards{
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     padding: 80px;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    padding: 20px 50px;
+    align-items: center;
+    justify-content: center;
 }
 
 .section2 .card{
@@ -59,19 +64,14 @@ gap: 5px;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    width: 300px;
+    /* width: 300px; */
     background-color: rgb(249,249,249);
-    height: 350px;
+    height: 300px;
     border-radius: 30px;
 }
 
 .section2 .card img {
     max-width: 200px;
-}
-
-.section2 .card .images {
-    position: relative;
-    max-width: fit-content;
 }
 
 .section2 .card .images img {
@@ -80,20 +80,19 @@ gap: 5px;
 }
 
 .section2 .cardest {
-    max-width: 600px;
     flex-direction: row;
-    height: 300px;
     justify-content: space-between;
     gap: 100px;
     display: flex;
     align-items: center;
     width: 100%;
+    grid-column: span 2;
 }
 
-.section2 .meme {
+/* .section2 .meme {
     height: 270px;
 
-}
+} */
 
 .section2 .card-part .cards .card p{
     padding: 20px;
@@ -150,9 +149,14 @@ margin-bottom: 50px;
     .section2 .card-part .cards .cardest{
         flex-direction: column;
         gap: 20px;
-        width: 300px;
+        /* width: 300px; */
         margin-bottom: 20px;
-        height: 400px;
+        grid-column: span 1;
+        height: 370px;
+    }
+
+    .section2 .cards {
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
