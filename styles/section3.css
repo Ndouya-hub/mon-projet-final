@@ -46,12 +46,14 @@ flex-direction: column;
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
     gap: 20px;
+    
 }
 
 .section3 .titre .real .block{
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
     padding: 50px;
     border-radius: 10px;
+    display: grid;
 
 }
 
@@ -73,12 +75,12 @@ flex-direction: column;
         font-size: 30px;
         text-align: center;
     }
-}
-
-.section3 .titre .real{
+    .section3 .titre .real{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10 20px;
+    grid-template-columns: repeat(1, 1fr);
 
+}
 }

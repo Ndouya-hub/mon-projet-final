@@ -1,7 +1,6 @@
 .section7 {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
-    
 }
 
 .section7 .lions{
@@ -26,9 +25,10 @@
     font-size: 15px;
     border-radius: 10px;
     gap: 5px;
+    width: fit-content;
 }
 .section7 .lions .col20 h1{
-    font-size: 50px;
+    font-size: 40px;
     text-transform: capitalize;
     line-height: 45px;
 }
@@ -49,6 +49,7 @@
 .section7 .lions .col20 .appstore img{
     height: 30px;
     width: 30px;
+
 }
 
 .section7 .lions .logo img{
@@ -71,16 +72,55 @@
     border-radius: 10px;
     padding: 10px 10px;
     text-transform: capitalize;
+    font-size: 10px;
 }
 
 
 
-
-
-
 @media (max-width: 900px){
-    .section7 .lions .col20 .col19{
-        display: flex;
+    .section7 .lions{
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    flex-direction: column;
+
+}
+    .section7 .lions .col20{
         justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-width: 100%;
+    }
+    .section7 .lions .col20 h1{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .section7 .lions .col20 .app{
+        gap: 20px;
+
+    }
+    .section7 .lions .logo img{
+        max-height: 300px;
+        max-width: 250px;
+    }
+    .section7 .lions .logo{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .section7 .lions .col20 .app{
+        flex-direction: column;
+    }
+    .section7 .lions .col20 .app .appstore p{
+        text-wrap: nowrap; 
+        width: 100%;
+    } 
+    .section7 .lions .col20 .app .appstore{
+        width: 200px;
     }
 }

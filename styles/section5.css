@@ -49,6 +49,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .section5 .col8 .col6{
@@ -60,6 +61,7 @@
     max-width: 350px;
     width: 320px;
     transition: ease-in-out 1s;
+    
 
 }
 
@@ -157,7 +159,4 @@
     text-align: center;
     margin-bottom: 20px;
 }
-}
-.section5 .col8{
-    flex-direction: column;
 }

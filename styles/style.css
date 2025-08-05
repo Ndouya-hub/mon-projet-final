@@ -104,16 +104,15 @@ footer .nav .liste ul{
     height: 200px;   
 }
 
-footer .nav .app .lien{
-    display: flex;
-    gap: 40px;
-}
-
 footer .nav .app{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 200px;
+}
+footer .nav .app .lien{
+    display: flex;
+    gap: 40px;
 }
 
 
@@ -138,4 +137,43 @@ footer .nav .app .lien .appstore{
         gap: 30px;
     }
 }
+   
+
+
+/* debut du footer*/
+
+@media (max-width: 900px){
+    footer .nav{
+    max-height: 100%;
+    flex-direction: column;
+    align-items: center;
+
+}
+footer .nav .div{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    height: fit-content;
+}
+footer .nav .liste ul{
+    justify-content: center;
+    gap: 15px;
+    height: fit-content;
+}
+footer .nav .app{
+    justify-content: center;
+    height: fit-content; 
+    text-align: center;
+    gap: 15px;
+}
+footer .nav .app .lien{
+    flex-direction: column;
+    gap: 20px;
+}
+footer .nav .app .lien .appstore{
+    justify-content: center;
+}
+}
+
     

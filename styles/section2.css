@@ -147,8 +147,12 @@ margin-bottom: 50px;
         padding-bottom: 0%;
         text-align: center;
     }
-    .section2 .card-part .cards .meme .text {
-        align-items: center;
+    .section2 .card-part .cards .cardest{
+        flex-direction: column;
+        gap: 20px;
+        width: 300px;
+        margin-bottom: 20px;
+        height: 400px;
     }
 
 }
