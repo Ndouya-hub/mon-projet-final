@@ -59,6 +59,8 @@ header .sign ul a {
     font-size: 14px;
     font-weight: 600;
     border-radius: 20px;
+    with: 100%;
+    text-wrap:nowrap;
 }
 header .sign ul .signin{
     padding: 7px 20px;
@@ -134,8 +136,9 @@ footer .nav .app .lien .appstore{
 @media (max-width: 900px) {
     header {
         flex-direction: column;
-        gap: 30px;
+        gap: 20px;
     }
+    header 
 }
    
 
